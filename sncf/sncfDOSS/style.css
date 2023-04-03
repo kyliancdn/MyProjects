@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+    background: url(img/pkbg.png);
+}
+
+a {
+    text-decoration: none;
+}
+a img {
+    height: 3cm;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.arti_texte h1::before{
+    content: url("");
+
+}
+
+#navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+nav li:not(:last-child) {
+    border-right: solid rgb(232, 215, 192);
+    text-align: center;
+
+}
+.nav_a:not(.logo) {
+    padding: 15px;
+    padding-right: 125px;
+    font-size: 30px;
+    text-decoration: none; 
+}
+
+nav {
+    background-color: rgb(255, 242, 222);
+    width: 100%;
+}
+
+nav img {
+    display: flex;
+    align-items: flex-end;
+}
+
+#baseimg {
+    /* obligé de créer une section dans cette section vue que background est déjà défini. */ 
+    background-image: url("img/gare.jpg");
+    width: 100%;
+    height: 705px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#sectform {
+    background-color: rgb(251, 251, 251);
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+#sectform h2 {
+    margin: 7px 0 7px 7px;
+}
+
+#sectform p {
+    margin: 12px 0 0 12px
+}
+
+#sectform div {
+    margin-bottom: 25px;
+}
+
+#sectform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#lieu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#date input {
+    margin: 0 20px
+}
+
+#slog {
+    text-align: center;
+}
+
+#slog p {
+    color: rgb(166, 166, 166);
+}
+#imgp section div p {
+    background-color: aquamarine;
+    text-align: center;    
+}
+
+#Article {
+    margin-left: 50px;
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.arti_texte h1{
+    text-align: center;
+}
+
+article p a {
+    color: blue;
+}
+
+.savoir {
+    color: blue;
+}
+
+#savoir {
+    color: blue;
+    margin-bottom: 30px;
+}
+
+
+.article img {
+    height: 10cm;
+    border-radius: 20px;
+} 
+
+.article {
+    width: 100%;
+    height: 350px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 25px;
+}
+
+.articleD {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(238, 238, 238);
+    margin: 50px 25px 0 0;
+}
+
+
+
+.arti_texte {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arti_texte img {
+    height: 3em;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.arti_texte p:not(h2) {
+    text-align: center;
+    font-size: 25px;
+}
+
+.arti_image {
+    display: flex;
+    height: 350px;
+    align-items: center;
+}
+
+
+article p:not(#savoir) {
+    padding-top: 1em;
+}
+
+.arti_imageD {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.arti_imageD img {
+    height: 10cm;
+    border-radius: 20px;
+}
+
+#logopk {
+    height: 11cm;
+    margin-bottom: -100px ;
+    margin-top: -100px;
+}
+
+#logox {
+    height: 5cm;
+    margin-bottom: -75px;
+    margin-top: -75px;
+}
+
+#x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 248, 237);
+    margin: 75px 0;
+}
+
+#x p {
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: rgb(44, 44, 44);
+}
+
+#jacket {
+    display: flex;
+    justify-content: center;
+}
+
+#jacket img:nth-child(2) {
+    padding-right: 3em ;
+}
+
+#jacket img:first-child {
+    left: 171px;
+    top: -40px;
+    width: 12em;
+    position: relative;
+    height: 10em;
+}
+
+#jacket img:last-child {
+    right: 171px;
+    bottom: -412px;
+    width: 12em;
+    position: relative;
+    height: 10em;
+}
+
+footer {
+    background-color: rgb(75, 75, 108);
+    height: 8cm;
+    margin-top: 70px;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cont {
+    font-size: larger;
+}
+#news {
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+}
+
+#footlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    bottom: 8em;
+}
+
+#footlist li img {
+    height: 50px;
+}
+
+#cpoke {
+    position: relative;
+    bottom: 6em;
+    text-align: center;
+}
+
+#armarouge {
+    display: flex;
+    justify-content: space-between;
+}
+#armarouge img {
+    height: 8cm;
+}
+

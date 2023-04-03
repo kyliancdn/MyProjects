@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.logo {
+    height: 3cm;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottm: solid black;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+li:not(:last-child) {
+    border-right: solid rgb(232, 215, 192);
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    padding-right: 125px;
+    font-size: 30px;
+    text-decoration: none; 
+}
+
+nav {
+    background-color: rgb(255, 246, 222);
+}
+
+nav img {
+    display: flex;
+    align-items: flex-end;
+}
+
+#imgp {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(75, 75, 108);
+    height: 10cm;
+}
+
+#logopk {
+    height: 11cm;
+}
+
+.x {
+    height: 5cm;
+}
+
+#x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 100px;
+    width: 100em;
+    background-color: aqua;
+    border: none;
+    outline: none;
+}
+
+/* .article img {
+    width: 8cm;
+    object-fit: none;
+    object-position: center;
+    max-height: 362px 
+}
+    width: 15cm;
+    object-fit: none;
+    object-position: center;
+    max-height: 362px */
+
+.article img {
+        height: 10cm;
+        border-radius: 20px;
+    } 
+
+.article {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(238, 238, 238);
+        display: flex;
+        align-items: flex-start;
+    }
+
+.arti_texte {
+    /*background-color: rgb(243, 243, 243);*/
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .arti_texte p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+.arti_image {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    }
+
+
+article p {
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+footer {
+    margin-top: 20px;
+    }
